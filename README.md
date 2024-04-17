@@ -1,8 +1,32 @@
-# React + Vite
+# TWC CONTACTS PORTAL APP
+This is the repository for the TWC CONTACTS PORTAL APP, a web application built with Vite and React for managing contacts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Table of Contents
+1. Installation
+2. routes
+3. Technologies Used
 
-Currently, two official plugins are available:
+### Installation
+`git clone https://github.com/DulanjanChanaka/twc-test-web.git`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`cd twc-test-web`
+
+`npm install`
+
+`npm run dev`
+
+### routes
+* /            - welcome page
+
+* /login       - Login page
+
+* contacts/new - add new contact page
+
+* /contacts    - show all contacts page
+
+### Technologies Used
+* react
+* axios
+* tailwindcss
+* react-icons
+
